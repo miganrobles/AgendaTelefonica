@@ -35,4 +35,13 @@ public class AgendaTelefonica
     {
         return agendaTelefonos.get(name);
     }
+    
+    /**
+     * Print all keys
+     */
+    public void printAllNames()
+    {
+        System.out.println(agendaTelefonos.keySet());
+    }
+
 }
